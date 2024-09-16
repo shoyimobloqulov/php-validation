@@ -11,8 +11,10 @@
         "php validator library package",
         "php validator package"
     ],
-    "type": "composer-plugin",
-    "require": {},
+    "type": "project",
+    "require": {
+        "php": "^8.1"
+    },
     "license": "MIT",
     "autoload": {
         "psr-4": {

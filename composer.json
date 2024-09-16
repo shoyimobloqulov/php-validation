@@ -1,0 +1,29 @@
+{
+    "name": "shoyim/php-validation",
+    "description": "php requests validation helper functions",
+    "version": "0.0.1",
+    "keywords": [
+        "php validator",
+        "php validation",
+        "php validator class",
+        "php validator library",
+        "php validator library class",
+        "php validator library package",
+        "php validator package"
+    ],
+    "type": "composer-plugin",
+    "require": {},
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Shoyim\\PhpValidation\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shoyim Obloqulov"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

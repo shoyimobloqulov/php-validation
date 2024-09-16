@@ -12,14 +12,14 @@ class Validator
     public function __construct()
     {
         $this->validators = [
-            'empty' => new Rule\EmptyRule(),
-            'numeric' => new Rule\NumericRule(),
-            'string' => new Rule\StringRule(),
-            'email' => new Rule\EmailRule(),
-            'password' => new Rule\PasswordRule(),
-            'required' => new Rule\RequiredRule(),
-            'max' => new Rule\MaxRule(),
-            'min' => new Rule\MinRule()
+            'empty' => new Rules\EmptyRule(),
+            'numeric' => new Rules\NumericRule(),
+            'string' => new Rules\StringRule(),
+            'email' => new Rules\EmailRule(),
+            'password' => new Rules\PasswordRule(),
+            'required' => new Rules\RequiredRule(),
+            'max' => new Rules\MaxRule(),
+            'min' => new Rules\MinRule()
         ];
     }
 
@@ -75,7 +75,7 @@ class Validator
         return $this->validators;
     }
 
-    public function setRule(Rule\AbstractRule $rule)
+    public function setRule(Rules\AbstractRule $rule)
     {
         if (!isset($this->validators[$rule->getRuleName()])) {
             $this->validators[$rule->getRuleName()] = $rule;

@@ -24,6 +24,6 @@
             "name": "Shoyim Obloqulov"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }

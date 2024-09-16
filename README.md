@@ -1,4 +1,4 @@
-# php-validation
+# Php Validation
 
 A php package for validation.
 

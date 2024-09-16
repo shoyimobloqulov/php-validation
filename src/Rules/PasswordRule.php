@@ -1,6 +1,6 @@
 <?php
 
-namespace Shoyim\PhpValidation\Rule;
+namespace Shoyim\PhpValidation\Rules;
 
 /**
  *^: anchored to beginning of string

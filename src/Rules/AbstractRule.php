@@ -1,6 +1,6 @@
 <?php
 
-namespace Shoyim\PhpValidation\Rule;
+namespace Shoyim\PhpValidation\Rules;
 // Super class function or objects collection
 abstract class AbstractRule
 {

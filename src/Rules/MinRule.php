@@ -1,6 +1,6 @@
 <?php
 
-namespace Shoyim\PhpValidation\Rule;
+namespace Shoyim\PhpValidation\Rules;
 
 class MinRule extends AbstractRule
 {
